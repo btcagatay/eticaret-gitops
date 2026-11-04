@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
         - name: eticaret-api
-        - image: DOCKER_USER/eticaret-api:1.0
-        + image: DOCKER_USER/eticaret-api:1.1        
+        - image: cemilturkmus/eticaret-api:1.0
+        + image: cemilturkmus/eticaret-api:1.1   
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
